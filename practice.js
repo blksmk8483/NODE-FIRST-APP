@@ -8,14 +8,18 @@ let Brandon = {
     favoriteVegetable: 'yellow squash',
 }
 
-function summarizeUser(userFirstName, userAge, userHasHobby) {
-    // return (
-    //     'Name is ' + userFirstName + ', age is ' + userAge + ' and the user has hobbies: ' + userHasHobby
-    // );
+
+// const summarizeUser = (userFirstName, userAge, userHasHobby) => {
+//     // return (
+//     //     'Name is ' + userFirstName + ', age is ' + userAge + ' and the user has hobbies: ' + userHasHobby
+//     // );
     
-    return (
-        `My name is ${userFirstName}, I am ${userAge} yearsold and my hobbies are: ${userHasHobby} ${Brandon.name} ${Brandon.age} ${Brandon.favoriteVegetable}`
-    );
-};
+//     return (
+//         `My name is ${userFirstName}, I am ${userAge} yearsold and my hobbies are: ${userHasHobby} ${Brandon.name} ${Brandon.age} ${Brandon.favoriteVegetable}`
+//     );
+// };
+
+const summarizeUser = (userFirstName, userAge, userHasHobby) =>
+        `My name is ${userFirstName}, I am ${userAge} yearsold and my hobbies are: ${userHasHobby} ${Brandon.name} ${Brandon.age} ${Brandon.favoriteVegetable}`;
 
 console.log(summarizeUser(firstName, age, hasHobbies, Brandon));
